@@ -69,6 +69,7 @@ You must train a model first. The trained weights will be saved to `diffusion_mo
 ```bash
 python main.py --mode train --n_epochs 20
 ```
+````
 
 ### 2. Generate Images
 
