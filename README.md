@@ -58,7 +58,8 @@ pip install torch torchvision
 pip install matplotlib numpy coremltools
 
 # 3. Build the custom Metal C++ extension
-python setup.py install```
+python setup.py install
+```
 
 ## Usage
 
@@ -69,7 +70,6 @@ You must train a model first. The trained weights will be saved to `diffusion_mo
 ```bash
 python main.py --mode train --n_epochs 20
 ```
-````
 
 ### 2. Generate Images
 
@@ -85,4 +85,4 @@ python main.py --mode sample --implementation metal
 # Run the high-performance Core ML implementation
 python main.py --mode sample --implementation coreml
 ```
-Generated images will be saved in the `samples/` directory.````
+Generated images will be saved in the `samples/` directory.
