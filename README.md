@@ -20,7 +20,7 @@ The core of this project was not just the implementation, but the rigorous debug
 
 ## Performance Benchmarks
 
-The following benchmarks were recorded on an [Your Mac Model, e.g., M1 Pro] generating 16 MNIST samples after 20 epochs of training.
+The following benchmarks were recorded on an 2020 M1 Mac generating 16 MNIST samples after 20 epochs of training.
 
 | Implementation | Time to Generate 16 Images | Speed vs. Baseline | Key Technology |
 | :--- | :---: | :---: | :--- |
